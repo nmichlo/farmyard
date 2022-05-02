@@ -31,6 +31,11 @@
         "pytest-cov>=2.12.1",
     ]
 
+# rust packaging and deployment
+[build-system]
+    requires = ["maturin>=0.11,<0.12"]
+    build-backend = "maturin"
+
 # replace pytest.ini
 [tool.pytest.ini_options]
     minversion = "6.0"

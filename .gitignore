@@ -127,3 +127,29 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# --- MATURIN --- #
+
+/target
+
+# Distribution / packaging
+.venv/
+bin/
+include/
+man/
+
+# Installer logs
+pip-selfcheck.json
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+.DS_Store
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/

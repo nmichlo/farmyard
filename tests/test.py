@@ -29,7 +29,9 @@
 
 
 def test_example():
-    print('this test should pass!')
+    import farmyard._native._farmyard_native
+    print(farmyard._native.version())
+    print(farmyard._native.sum_as_string(3, 5))
 
 
 # ========================================================================= #
